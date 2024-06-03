@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: qod-db
-          image: docker.io/ibmicpcoc/qod-db
+          image: quay.io/arief_amarullah/qod-db:latest
           imagePullPolicy: Always
           ports:
             - name: mysql
